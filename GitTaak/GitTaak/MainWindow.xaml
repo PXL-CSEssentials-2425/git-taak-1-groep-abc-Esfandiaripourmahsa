@@ -9,5 +9,6 @@
         Title="Kleurenpsychologie" Height="450" Width="800">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="44,31,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Height="43" Width="186" FontSize="20"/>
+        <Image HorizontalAlignment="Left" Height="99" Margin="670,10,0,0" VerticalAlignment="Top" Width="100" Source="" Source="/PXL.png"/>
     </Grid>
 </Window>
