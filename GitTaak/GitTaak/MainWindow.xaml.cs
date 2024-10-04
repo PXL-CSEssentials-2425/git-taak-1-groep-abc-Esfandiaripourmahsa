@@ -61,5 +61,26 @@ namespace GitTaak
         {
             mainWindow.Background = Brushes.LightGray;
         }
+
+        private void rood_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorcode.Text = " #FF0000"; // Rood
+        }
+
+        private void geel_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorcode.Text = " #FFFF00"; // Geel
+        }
+
+        private void groen_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorcode.Text = " #008000"; // Groen
+
+        }
+
+        private void blauw_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorcode.Text = " #0000FF"; // Blauw
+        }
     }
 }
