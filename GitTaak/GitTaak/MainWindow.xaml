@@ -16,7 +16,9 @@
         <Image Name="groen" HorizontalAlignment="Left" Height="100" Margin="96,211,0,0" VerticalAlignment="Top" Width="150" Source="/Groen.png" MouseEnter="Image_MouseEnter_2" MouseLeave="Image_MouseLeave_2" MouseDown="groen_MouseDown"/>
         <Image Name="blauw" HorizontalAlignment="Left" Height="100" Margin="329,211,0,0" VerticalAlignment="Top" Width="150" Source="/Blauw.png" MouseEnter="Image_MouseEnter_3" MouseLeave="Image_MouseLeave_3" MouseDown="blauw_MouseDown"/>
         <Label Content="KleurCode:" Margin="44,325,625,0" VerticalAlignment="Top" Height="45" FontSize="18" RenderTransformOrigin="0.466,0.756"/>
-        <TextBox Name="colorcode" HorizontalAlignment="Left" Margin="153,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="325" Background="#FFF9F7F7" OpacityMask="#FF231F1F" BorderBrush="#FF01040C" BorderThickness="2" FontSize="18"/>
+        <TextBox Name="colorCode" IsReadOnly="True" HorizontalAlignment="Left" Margin="153,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="325" Background="#FFF9F7F7" OpacityMask="#FF231F1F" BorderBrush="#FF01040C" BorderThickness="2" FontSize="18" />
+        <Label Content="Informatie:" Margin="44,366,625,0" VerticalAlignment="Top" Height="45" FontSize="18" RenderTransformOrigin="0.466,0.756"/>
+        <TextBox Name="informatieCode" IsReadOnly="True" HorizontalAlignment="Left" Margin="153,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="325" Background="#FFF9F7F7" OpacityMask="#FF231F1F" BorderBrush="#FF01040C" BorderThickness="2" FontSize="18" />
 
 
     </Grid>
